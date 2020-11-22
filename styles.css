@@ -1,0 +1,41 @@
+.profile-img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%
+}
+
+/* for Smooth Scroll
+ */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.sub-section {
+    margin-bottom: 60px;
+}
+
+.rb-card {
+    border: none;
+    border-radius: 4px;
+    box-shadow: 5px 5px 16px 0 rgba(0, 0, 0, 0.13);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.rb-card a {
+    color: #515f6a;
+}
+
+.rb-card:hover {
+    transform: scale(1.015);
+}
+
+
+
+a {
+    -webkit-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-out;
+}
